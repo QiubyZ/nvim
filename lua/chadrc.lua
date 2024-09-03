@@ -12,6 +12,6 @@ M.base46 = {
 	-- 	["@comment"] = { italic = true },
 	-- },
 }
-M.plugins = "plugins"
+--M.plugins = "plugins"
 
 return M

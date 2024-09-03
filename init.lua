@@ -17,11 +17,12 @@ local lazy_config = require "configs.lazy"
 require("lazy").setup({
   {
     "NvChad/NvChad",
-    lazy = false,
+    lazy = true,
     branch = "v2.5",
     import = "nvchad.plugins",
   },
   { import = "plugins" },
+  --Ini Untuk Aktifkan Tampilan Lazy, kalau mau coba hapus aja -- diawal barus lalu save
   --{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
   --{ import = "lazyvim.plugins.extras.lang.kotlin" },
     
