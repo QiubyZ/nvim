@@ -13,5 +13,20 @@ return {
 			require("configs.lspconfig")
 		end,
 	},
-
+	{
+    "folke/noice.nvim",
+    opts = {
+      cmdline = {
+        enabled = false,
+      },
+      messages = {
+        enabled = false,
+      },
+      -- Disable PopUp cmdline
+      popupmenu = {
+        enabled = false,
+      },
+    },
+  },
 }
+
